@@ -1,0 +1,22 @@
+
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(3, 75px) 50px;
+    grid-template-columns: 80px 1fr;
+    row-gap: 1px;
+    column-gap: 1px;
+  
+}
+
+.jaune {
+    background-color: yellow;
+}
+
+.rouge {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}

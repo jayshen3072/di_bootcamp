@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: rgba(240, 244, 247, 0.568);
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:auto 100px;
+    gap: 2px;
+    margin: 40px;
+
+  
+}
+
+.main>div {
+    border-radius: 2px;
+    background-color: rgb(225, 225, 219);
+    text-align: center;
+   
+    
+}
+
+
+.main>div.avatar {
+    background-color: white;
+}
+
+.main>div.price {
+    background-color: white;
+    color: black;
+    
+}
+
+
+
+.main>div.features {
+    background-color: rgb(38, 38, 70);
+    color: white;
+}
+
+
+
+
+
+.title{
+margin: 20px;
+text-align: center;
+}

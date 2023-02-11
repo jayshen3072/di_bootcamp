@@ -1,0 +1,13 @@
+.yellow-box {
+    min-height: 50px;
+    border: 2px;
+    border-color: black;
+    background-color: yellow;
+}
+
+.red-box {
+    min-height: 50px;
+    border: 2px;
+    border-color: black;
+    background-color: red;
+}

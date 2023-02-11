@@ -1,0 +1,21 @@
+.col1 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:auto 100px;
+    gap: 5px;
+
+  
+}
+
+.col1>div {
+    border-radius: 8px;
+    background-color: rgb(192, 201, 73);
+    text-align: center;
+    color: white;
+    
+}
+
+
+.col1>div.trois {
+    background-color: white;
+}

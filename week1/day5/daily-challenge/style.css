@@ -1,0 +1,71 @@
+:root {
+    --navbar-height: 60px;
+    --navbar-col: blue;
+}
+
+
+body{
+    margin: 0;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--navbar-height);
+    background-color: var(--navbar-col);
+    padding: 10px;
+    z-index: 10;
+
+}
+
+nav .brand {
+    height: var(--navbar-height);
+    width: var(--navbar-height);
+    float: left;
+}
+a {
+    float:right;
+    color: black;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:blue;
+    color: white;
+    text-align: center;
+  }
+
+  main .card {
+    margin-top: 100px;
+    width: 25%;
+    height: 600 px;
+    float:left;
+  }
+  main .card .card-header img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+  }
+  main .card .card-footer p{
+    text-align:center;
+  }
+  main .card .card-footer button {
+    background-color: #07800b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+ 

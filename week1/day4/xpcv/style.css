@@ -1,0 +1,27 @@
+
+
+html, body{
+    margin: 0;
+    background-color: rgb(238, 245, 238);
+    max-width: 21cm;
+    max-height: 29.7cm;
+}
+.firstcol {
+    background-color:rgb(214, 212, 220);
+    float: left;
+    width: 7cm;
+    height: 29.7cm;
+    
+}
+.pad {
+    padding-left: 1cm;
+    
+}
+.secondcol {
+    background-color: rgb(97, 97, 100);
+    float:right;
+    width: 14cm;
+    height: 29.7cm;
+    
+}
+
