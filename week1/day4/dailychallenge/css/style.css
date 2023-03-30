@@ -1,0 +1,15 @@
+.yellow-box {
+    background-color: white;
+    height:auto;
+    border:  1px solid rgb(138, 137, 137);
+}
+
+span {
+    text-align: justify;
+}
+
+.image {
+    display:inline;
+    width: 200px;
+    height: 200px;
+}

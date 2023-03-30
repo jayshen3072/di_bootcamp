@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #7c7a7a;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+
+  .img-reponsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .textoverimage {
+    position: relative;
+  }
+  
+  p.title {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    text-align: center;
+    font-size: 38px;
+    width: 100%;
+    color: #dd0b0b
+  }
+  
+  @media only screen and (max-width: 767px) {
+    p.title {
+      font-size: 1.5em;
+      line-height: 1.5em;
+    }
+  }
+  
+  @media only screen and (max-width: 479px) {
+    p.title {
+      font-size: 1.1em;
+      line-height: 1.1em;
+    }
+  }
+

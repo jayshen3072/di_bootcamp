@@ -1,0 +1,10 @@
+
+
+
+.banner {
+    background-color: blueviolet;
+    display:flex;
+    align-content: center;
+    color:white;
+    height: 100px;
+}
